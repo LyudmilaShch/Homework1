@@ -1,0 +1,94 @@
+.message {
+    background-color: #FFCDED;
+    padding: 10px 10px 10px 6px;
+    max-width: 400px;
+    min-height: 120px;
+}
+
+p {
+    margin-top: 0.5em; /* Отступ сверху */
+    margin-bottom: 0.5em; /* Отступ снизу */
+}
+
+.name{
+    font-weight: bold;
+    color: #FA8CEB;
+}
+
+img {
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin-right: 30px;
+    margin-left: 5px;
+    margin-top: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.time {
+    float: right;
+    color: #1E8E01;
+}
+
+/*.block {
+    border-radius: 10px;
+    padding: 5px;
+    position: relative;
+    margin-right: 50px;
+    margin-left: 80px;
+    margin-top: 10px;
+    background-color: #060606;
+    color: #F8E5E9;
+
+
+}
+.block::before, .block::after {
+    content: '';
+    position: absolute;
+    left: -15px; bottom: 0px;
+    border: 20px solid transparent;
+    border-bottom: 10px solid #060606;
+}*/
+
+.block {
+    border-radius: 10px;
+    padding: 5px;
+    position: relative;
+    margin-right: 50px;
+    margin-left: 90px;
+    margin-top: 10px;
+    background-color: #060606;
+    color: #F8E5E9;
+}
+
+.block::after, .block::before {
+    content: "";
+    position: absolute;
+    right: 100%;
+    bottom: 0em;
+    width: 0.8em;
+    height: 1.8em;
+    border-radius: 0 100% 100% 0 / 0 50% 50% 0;
+    background: #FFCDED;
+    }
+
+.block::before {
+    border-top: none;
+    height: .9em;
+    width: 1.4em;
+    border-radius: 0 0 0 0;
+    background: #060606;
+    border-color: #060606;
+    margin-right: -.6em;
+}
+img {
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-top: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
