@@ -13,11 +13,11 @@ function Affair(props: AffairPropsType) {
         props.deleteAffairCallback(props.affair._id)
 
     }// need to fix
-let color;
-    if (props.affair.priority === 'low'){
+    let color;
+    if (props.affair.priority === 'low') {
         color = s.green;
     }
-    if (props.affair.priority === 'middle'){
+    if (props.affair.priority === 'middle') {
         color = s.yellow;
     }
     if (props.affair.priority === 'high') {
@@ -26,11 +26,13 @@ let color;
     return (
         <div key={props.affair._id}>
             <div className={s.blockAffairs}>
-            <p className={s.affairName}>{props.affair.name}</p>
-            <p className={`${s.affairPriority} ${color}`}>{props.affair.priority}</p>
+                <div className={s.affairName}>{props.affair.name}</div>
+                <div className={`${s.affairPriority} ${color}`}>{props.affair.priority}</div>
+
             </div>
-        <button onClick={deleteCallback}  className={s.buttonDelete}>x</button>
-    </div>
+            <button onClick={deleteCallback}>x</button>
+
+        </div>
     )
 }
 

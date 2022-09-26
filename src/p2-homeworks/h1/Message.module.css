@@ -1,69 +1,57 @@
 .message {
+    display: flex;
     background-color: #FFCDED;
     padding: 10px 10px 10px 10px;
-    max-width: 400px;
-    min-height: 120px;
+    align-items: flex-end;
+
 }
 
-p {
-    margin-top: 0.3em; /* Отступ сверху */
-    margin-bottom: 0.3em; /* Отступ снизу */
+/*p {
+    margin-top: 0.3em; !* Отступ сверху *!
+    margin-bottom: 0.3em; !* Отступ снизу *!
     margin-left: 10px;
-}
+}*/
 
 .name{
     font-weight: bold;
     color: #FA8CEB;
+    font-size: 20px;
+}
+
+.text{
+    max-width: 300px;
+    min-width: 150px;
+    word-wrap: break-word;
+    color: #FA8CEB;
 }
 
 img {
-    float: left;
     width: 60px;
     height: 60px;
-    margin-right: 30px;
-    margin-left: 5px;
-    margin-top: 30px;
     border-radius: 50%;
     object-fit: cover;
 }
 
 .time {
-    float: right;
+    display: flex;
+    justify-content: flex-end;
     color: #1E8E01;
 }
 
-/*.block {
-    border-radius: 10px;
-    padding: 5px;
-    position: relative;
-    margin-right: 50px;
-    margin-left: 80px;
-    margin-top: 10px;
-    background-color: #060606;
-    color: #F8E5E9;
-
-
-}
-.block::before, .block::after {
-    content: '';
-    position: absolute;
-    left: -15px; bottom: 0px;
-    border: 20px solid transparent;
-    border-bottom: 10px solid #060606;
-}*/
-
 .block {
-    border-radius: 10px;
-    padding: 5px;
-    position: relative;
-    margin-right: 50px;
-    margin-left: 90px;
-    margin-top: 10px;
-    background-color: #060606;
+    border-radius: 10px 10px 10px 0;
+    padding: 10px;
+    background-color: rgba(255,255,255,0.3);
     color: #F8E5E9;
-    height:60px;
 }
 
+.angle {
+    width: 15px;
+    height: 15px;
+    background: radial-gradient(circle at 0 0, rgba(0, 0, 0, 0) 15px, rgba(255,255,255,0.3) 0);
+}
+
+/*
 .block::after, .block::before {
     content: "";
     position: absolute;
@@ -94,3 +82,4 @@ img {
     border-radius: 50%;
     object-fit: cover;
 }
+*/
