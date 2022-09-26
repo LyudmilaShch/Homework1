@@ -1,3 +1,56 @@
 .someClass {
 
 }
+.blockAffairs {
+    border-radius: 10px;
+    padding: 5px;
+    width: 192px;
+    height: 35px;
+
+    margin: 5px;
+    background-color: f7f2ed;
+    display: inline-block;
+    border: 1px solid #2d281d;
+}
+
+
+.affairName{
+    color: #060606;
+    margin-top: -0.1em; /* Отступ сверху */
+    margin-bottom: -0.1em; /* Отступ снизу */
+}
+
+.affairPriority{
+    float: right;
+    font-size: 8pt;
+    font-weight: bold;
+    margin-top: -0.1em; /* Отступ сверху */
+    margin-bottom: -0.1em; /* Отступ снизу */
+}
+
+.green{
+    color: #1E8E01;
+}
+
+.red {
+    color: red;
+}
+
+.yellow{
+    color: chocolate;
+}
+
+button{
+    height: 30px;
+    background-color: #c8bd92;
+    color: #2d281d;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 1px;
+    border: 1px solid #2d281d;
+}
+
+.buttonDelete{
+    transform: translate(0%, 15%);
+}

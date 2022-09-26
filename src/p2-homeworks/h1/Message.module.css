@@ -1,13 +1,14 @@
 .message {
     background-color: #FFCDED;
-    padding: 10px 10px 10px 6px;
+    padding: 10px 10px 10px 10px;
     max-width: 400px;
     min-height: 120px;
 }
 
 p {
-    margin-top: 0.5em; /* Отступ сверху */
-    margin-bottom: 0.5em; /* Отступ снизу */
+    margin-top: 0.3em; /* Отступ сверху */
+    margin-bottom: 0.3em; /* Отступ снизу */
+    margin-left: 10px;
 }
 
 .name{
@@ -60,6 +61,7 @@ img {
     margin-top: 10px;
     background-color: #060606;
     color: #F8E5E9;
+    height:60px;
 }
 
 .block::after, .block::before {
