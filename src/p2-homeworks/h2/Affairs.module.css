@@ -1,6 +1,7 @@
 .someClass {
 
 }
+
 .blockAffairs {
     border-radius: 10px;
     padding: 5px;
@@ -14,19 +15,19 @@
 }
 
 
-.affairName{
+.affairName {
     color: #060606;
 
 }
 
-.affairPriority{
+.affairPriority {
     font-size: 8pt;
     font-weight: bold;
     display: flex;
     justify-content: flex-end;
 }
 
-.green{
+.green {
     color: #1E8E01;
 }
 
@@ -34,21 +35,20 @@
     color: red;
 }
 
-.yellow{
+.yellow {
     color: chocolate;
 }
 
-button{
+button {
     height: 30px;
     background-color: #c8bd92;
     color: #2d281d;
-    border-radius: 10px;
     padding-left: 10px;
     padding-right: 10px;
     margin: 1px 1px 1px 5px;
     border: 1px solid #2d281d;
 }
 
-.buttonDelete{
+.buttonDelete {
 
 }
